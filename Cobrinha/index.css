@@ -1,0 +1,43 @@
+html, body {
+    margin: 10;
+    padding: 10;
+    background: rgb(194, 194, 194);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px white;
+    margin: 0 auto;
+    background: black;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: rgb(35, 197, 35);
+}
+
+.apple {
+    background-color: rgb(191, 36, 230);
+}
+
+button {
+    border: none;
+    background: goldenrod;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 20px;
+}
